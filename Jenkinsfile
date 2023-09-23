@@ -6,6 +6,12 @@ pipeline {
                 checkout scm
             }
         }
+        stage('Debug Workspace') {
+    steps {
+        sh 'ls -al ${WORKSPACE}'
+    }
+}
+
         stage('Send Email') {
             steps {
                 emailext (
