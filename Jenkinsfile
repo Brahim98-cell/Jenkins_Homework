@@ -16,7 +16,7 @@ pipeline {
                     def body = "Please find the attached README file from the Git repository."
 
                     // Define the recipients
-                    def to = "frigui.brahim@esprit.tn"
+                    def to = "brahimfrigui7@gmail.com"
 
                     // Attach the README file from the workspace
                     def attachment = [
